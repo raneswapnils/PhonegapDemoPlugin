@@ -1,0 +1,22 @@
+{
+  "name": "phonegapdemoplugin",
+  "version": "1.0.0",
+  "description": "Phonegap custom demo plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "cordova plugin add phonegapdemoplugin --save"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raneswapnils/PhonegapDemoPlugin.git"
+  },
+  "keywords": [
+    "phonegap"
+  ],
+  "author": "swapnil rane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raneswapnils/PhonegapDemoPlugin/issues"
+  },
+  "homepage": "https://github.com/raneswapnils/PhonegapDemoPlugin#readme"
+}
