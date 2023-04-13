@@ -6,12 +6,12 @@
   // Member variables go here.
 }
 
-- (void)coolMethod:(CDVInvokedUrlCommand*)command;
+- (void)testMethod:(CDVInvokedUrlCommand*)command;
 @end
 
 @implementation PhonegapDemoPlugin
 
-- (void)coolMethod:(CDVInvokedUrlCommand*)command
+- (void)testMethod:(CDVInvokedUrlCommand*)command
 {
     CDVPluginResult* pluginResult = nil;
     NSString* echo = [command.arguments objectAtIndex:0];
